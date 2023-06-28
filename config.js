@@ -11,9 +11,9 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'waffle',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '68839d4068bfb2d831c5ba0cdc0c4446', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-18.918564',
+	defaultLongitude: '-48.281780',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'Notion',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://notion.so',
 		},
 		{
 			id: '4',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -98,13 +98,13 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'twitter',
+			name: 'Twitter',
 			icon: 'twitter',
 			link: 'https://twitter.com/',
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: 'Discord',
 			icon: 'bot',
 			link: 'https://discord.com/app',
 		},
@@ -139,20 +139,28 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Study',
+					link: 'https://open.spotify.com/playlist/4eYJ2uknT3m9wousRmpTWy?si=2fce3a30381a40df',
 				},
 				{
 					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: 'https://open.spotify.com/playlist/4nALhEZ9rUOBiFhEkE0D7x?si=63b1ce32f6a94f1b',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Gaming',
+					link: 'https://open.spotify.com/playlist/1IkVORR8cKZlfZCmfHrJOg?si=be556e4346e44487',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Trap',
+					link: 'https://open.spotify.com/playlist/7q3ZSNP8FRRwipr5XUPNTA?si=f67188e779d54ba9',
+				},
+				{
+					name: 'International',
+					link: 'https://open.spotify.com/playlist/51pUBVi0FLSbYLvyZsJ1II?si=3eb72eb4489f4e87',
+				},
+				{
+					name: 'National',
+					link: 'https://open.spotify.com/playlist/66ISeBh9ITLwvamPmC773k?si=35844426683b438a',
 				},
 			],
 		},
